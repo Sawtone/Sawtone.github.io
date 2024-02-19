@@ -1,3 +1,7 @@
+- name: Sawtone's blog
+  url: https://scoodtone.github.io/
+  src: life
+
 - name: 码志
   url: http://mazhuang.org
-  src: life
+  src: www

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Sawtone
 description: 不负
 keywords: Xin Wang, Sawtone
 comments: true
@@ -8,9 +8,9 @@ menu: 关于
 permalink: /about/
 ---
 
-I am Sawtone.
+I'm Sawtone.
 
-一个目前是ENFJ的平凡大学生，累并快乐着。
+一个目前 ENFJ 的平凡大学生，累并快乐着。
 
 ## 联系
 

@@ -1,4 +1,4 @@
-![7A6E58CCDCA2670B42B6386B965CE0AA](https://github.com/Scoodtone/Scoodtone.github.io/assets/76857360/0513026a-85a8-44f1-ab80-28dd99e090f6)---
+---
 layout: page
 title: About
 description: 不负

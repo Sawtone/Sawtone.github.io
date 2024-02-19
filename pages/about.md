@@ -1,18 +1,14 @@
----
+![7A6E58CCDCA2670B42B6386B965CE0AA](https://github.com/Scoodtone/Scoodtone.github.io/assets/76857360/0513026a-85a8-44f1-ab80-28dd99e090f6)---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 不负
+keywords: Xin Wang, Sawtone
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
-
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+一个目前是ENFJ的平凡大学生，累并快乐着。
 
 ## 联系
 

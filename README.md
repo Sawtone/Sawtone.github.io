@@ -2,6 +2,8 @@
 
 个人博客页面：https://scoodtone.github.io
 
+vercel托管界面：https://scoodtone-github-io.vercel.app
+
 ## 一些感想
 
 刚刚度过一个事务繁重但又觉得没做什么的寒假，现在回想起来自己总是如此。
@@ -33,5 +35,7 @@ I wish all of us happy.
 本博客外观基于 [mzlogin](https://github.com/mzlogin/mzlogin.github.io) 修改，感谢mz大佬！
 
 mzlogin的个人主页：https://github.com/mzlogin
+
 mzlogin的Markdown：https://github.com/Scoodtone/Scoodtone.github.io/blob/master/MZ_README.md
+
 mzlogin的微信公众号：闷骚的程序员

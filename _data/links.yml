@@ -5,3 +5,7 @@
 - name: 码志
   url: http://mazhuang.org
   src: www
+
+- name: Quick Reference
+  url: https://quickref.cn/
+  src: www

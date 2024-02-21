@@ -1,10 +1,10 @@
 ---
 layout: wiki
-title: Basic
-cate1: Css
+title: css-Basic
+cate1: css
 cate2: 
-description: Basic
-keywords: Css
+description: css-Basic
+keywords: css
 ---
 
 ## 一些基本命令

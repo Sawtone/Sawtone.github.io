@@ -1,10 +1,10 @@
 ---
 layout: wiki
-title: Basic
-cate1: Html
+title: html-Basic
+cate1: html
 cate2: 
-description: Basic
-keywords: Html
+description: html-Basic
+keywords: html
 ---
 
 ## 一些基本命令
@@ -33,8 +33,8 @@ keywords: Html
 ### 创建列表
 
 ```
-
 <!-- 这是无序列表 -->
+
 <ul>
   <li></li>
   <li></li>

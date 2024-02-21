@@ -22,6 +22,8 @@ vercel托管界面：https://scoodtone-github-io.vercel.app
 
 I wish all of us happy.
 
+记于2024.2.21 山西
+
 ## 备忘录
 
    * \_posts 文件夹中是已发布的博客文章。

@@ -1,10 +1,10 @@
 ---
 layout: wiki
-title: Basic
-cate1: Python
+title: python-Basic
+cate1: python
 cate2: 
-description: Python
-keywords: Css
+description: python-Basic
+keywords: python
 ---
 
 ## 一些基本命令

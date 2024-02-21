@@ -1,10 +1,55 @@
 ---
 layout: wiki
-title: html-Basic
-cate1: html
+title: Basic
+cate1: Html
 cate2: 
-description: html-Basic
-keywords: html
+description: Basic
+keywords: Html
 ---
 
 ## 一些基本命令
+
+### 普通文本
+
+```
+<!-- 这是一段文本 -->
+
+<p>普通文本</p>
+```
+
+每个`<p>`标签内的内容通常显示为一个独立的段落，自动开始于新的一行，并且有一些垂直空间（上下边距）以区分相邻的段落。
+
+### 标题文本
+
+```
+<!-- 这是一些标题 -->
+
+<h1>这是一个主标题</h1>
+<h6>这是一个六级标题</h6>
+
+```
+
+标题从`<h1>`到`<h6>`
+
+### 创建列表
+
+```
+<!-- 这是无序列表 -->
+<ul>
+  <li></li>
+  <li></li>
+</ul>
+
+```
+
+无序列表用`<ul>`，有序列表用 (`<ol>`)
+
+### 引用文件变量
+
+```
+<!-- link.name是link文件的name变量 -->
+
+<p>{{ link.name}}</p>
+```
+
+`linkname`内的内容会直接作为`<p>`格式内容显示

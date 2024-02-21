@@ -2,7 +2,7 @@
 layout: wiki
 title: Basic
 cate1: Css
-cate2: Frontend
+cate2: 
 description: Basic
 keywords: Css
 ---

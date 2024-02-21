@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: linux-Basic
-cate1: Python
+cate1: Linux
 cate2: 
 description: linux-Basic
 keywords: Linux

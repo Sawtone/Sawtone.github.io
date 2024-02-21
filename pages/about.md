@@ -12,6 +12,10 @@ I'm Sawtone.
 
 一个目前 ENFJ 的平凡大学生，累并快乐着。
 
+如果此博客对你有帮助，还请为此项目点亮star，感激不尽。
+
+项目地址：https://github.com/Scoodtone/Scoodtone.github.io
+
 ## 联系
 
 <ul>

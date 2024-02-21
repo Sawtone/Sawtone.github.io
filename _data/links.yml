@@ -5,9 +5,9 @@
 - name: 码志
   url: http://mazhuang.org
   src: www
-  explain：博客模板作者
+  explain: 博客模板作者
 
 - name: Quick Reference
   url: https://quickref.cn/
   src: www
-  explain：一个很牛的开源指令记录网站
+  explain: 一个很牛的开源指令记录网站

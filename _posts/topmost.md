@@ -1,8 +1,25 @@
+---
+layout: post
+title: 写在开头
+categories: Life
+description: 搭建博客后对自己的一些期望吧，希望多年后回首不留遗憾。
+keywords: Life, Blog
+topmost: true
+---
+
 # Scoodtone 的 GitHub Pages 博客
 
-个人博客页面：https://scoodtone.github.io
+个人博客页面：https://scoodtone.github.io(本网页)
 
-vercel托管界面：https://scoodtone-github-io.vercel.app
+分类即按不同关键词分类博客
+
+片段记载生活趣事与小到无法记载博客的小碎片
+
+wiki主要记录一些知识点和指令
+
+链接指向我的朋友们与我常用的网页
+
+关于则是all of me
 
 ## 一些感想
 
@@ -23,14 +40,6 @@ vercel托管界面：https://scoodtone-github-io.vercel.app
 I wish all of us happy.
 
 记于2024.2.21 山西
-
-## 备忘录
-
-   * \_posts 文件夹中是已发布的博客文章。
-   * \_drafts 文件夹中是尚未发布的博客文章。
-   * \_wiki 文件夹中是已发布的 wiki 页面。
-   * \_fragments 文件夹中是已发布的短文片段。
-   * images 文件夹中是文章和页面里使用的图片。
 
 ## 致谢
 

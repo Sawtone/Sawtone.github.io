@@ -204,7 +204,7 @@ model = AutoModelForCausalLM.from_pretrained("internlm/internlm2-chat-7b", devic
 
 [https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134](https://github.com/oobabooga/text-generation-webui/issues/147#issuecomment-1456040134)
 
-https://github.com/TimDettmers/bitsandbytes/issues/942#issuecomment-1872393853
+[https://github.com/TimDettmers/bitsandbytes/issues/942#issuecomment-1872393853](https://github.com/TimDettmers/bitsandbytes/issues/942#issuecomment-1872393853)
 
 
 
@@ -419,3 +419,8 @@ I wish that one day i can save your day!☺️
 ### 我的环境库
 
 有点长，见博客此文章隔壁附录
+
+[https://scoodtone.github.io/2024/02/23/appendix](https://scoodtone.github.io/2024/02/23/appendix/)
+
+注：看到这里想翻到最上面有点麻烦，可以往下翻点击页面右下角的蓝色 TOP 返回最顶部喔
+

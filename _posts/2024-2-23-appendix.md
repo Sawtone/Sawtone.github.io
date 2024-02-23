@@ -1,3 +1,15 @@
+---
+layout: post
+title: InternLM2-Chat-7B环境库附录
+categories: [AI, InternLM]
+description: 一个附录
+keywords: AI, InternLM
+---
+
+Flask等库是我后面准备项目中遇到的，这里不需要，请自行辨别
+
+不需要依靠此列表下载，跟着流程走就行
+
 Package                   Version
 ------------------------- ----------
 accelerate                0.26.1

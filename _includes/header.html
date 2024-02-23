@@ -84,13 +84,13 @@
 
     {% if site.google.analytics_id %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N9Y96CG108"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id= {{ site.google.analytics_id }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-N9Y96CG108');
+      gtag('config', '{{ site.google.analytics_id }}');
     </script>
     {% endif %}
 </head>

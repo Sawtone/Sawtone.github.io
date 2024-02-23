@@ -6,12 +6,18 @@ description: 一个附录
 keywords: AI, InternLM
 ---
 
+# 同一天那篇文章的环境库附录
+
+### 写在开头
+
 Flask等库是我后面准备项目中遇到的，这里不需要，请自行辨别
 
 不需要依靠此列表下载，跟着流程走就行
 
 Package                   Version
+
 ------------------------- ----------
+
 accelerate                0.26.1
 
 addict                    2.4.0

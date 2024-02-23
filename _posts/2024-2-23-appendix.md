@@ -1,9 +1,9 @@
 ---
 layout: post
 title: InternLM2-Chat-7B环境库附录
-categories: [AI, InternLM]
+categories: [InternLM, appendix]
 description: 一个附录
-keywords: AI, InternLM
+keywords: InternLM, appendix
 ---
 
 # 同一天那篇文章的环境库附录

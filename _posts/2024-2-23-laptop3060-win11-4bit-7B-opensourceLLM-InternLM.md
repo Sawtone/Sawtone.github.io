@@ -4,7 +4,6 @@ title: InternLM2-Chat-7B搭建流程与相关项目预告
 categories: [AI, InternLM]
 description: 搭建InternLM的一些感想
 keywords: AI, InternLM
-
 ---
 
 # Windows+LAPTOP 本地搭建 InternLM2-Chat-7B(4bit量化)

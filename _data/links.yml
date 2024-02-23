@@ -11,3 +11,8 @@
   url: https://quickref.cn/
   src: www
   explain: 一个很牛的开源指令记录网站
+
+- name: Linux Command
+  url: https://wangchujiang.com/linux-command/
+  src: www
+  explain: 特别全面的Linux指令速查网站

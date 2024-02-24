@@ -146,7 +146,7 @@ model = AutoModelForCausalLM.from_pretrained("internlm/internlm2-chat-7b", devic
 
 如果你是Linux系统，直接运行就成功啦
 
-但......如果你是Windows系统，并且完全没有Liunx虚拟机，也不想使用任何云算力平台呢
+但......如果你是Windows系统，并且完全没有Linux虚拟机，也不想使用任何云算力平台呢
 
 #### Windows 系统下量化大模型
 
@@ -158,7 +158,7 @@ model = AutoModelForCausalLM.from_pretrained("internlm/internlm2-chat-7b", devic
 
 ⭐注：
 
-- 这段内容可能会出现一些不在主要脉络里但我放上来的链接，这是因为我在一步步做的过程中也比较乱，在很多教程的帮助下尝试了很多种办法，此文也是经过了半个月才写，所以有一些链接我不太确定有什么用，但既然不是完全没用，我就还是把它放进来了
+- 这段内容可能会比较乱，毕竟本人在很多教程的帮助下尝试了很多种办法，此文也是经过了半个月才写，所以有一些链接我不太确定有什么用，但不是完全没用，我还是把它放在末尾了
 
 - 必须确保Python版本为3.10.x，后面下载会用到
 

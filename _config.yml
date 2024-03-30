@@ -13,7 +13,7 @@ encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2024
 # 源码仓库，请替换成自己的
-repository: Scoodtone/Scoodtone.github.io
+repository: Sawtone/Sawtone.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -60,7 +60,7 @@ highlight_theme: github
 author: Sawtone
 organization: 
 organization_url: 
-github_username: Scoodtone
+github_username: Sawtone
 location: Beijing, China
 email: 2717699401abc@gmail.com
 
@@ -168,7 +168,7 @@ beaudar:
     repo: 
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: Scoodtone/Scoodtone.github.io
+    repo: Sawtone/Sawtone.github.io
     repo-id: R_kgDOLUgCUA
     category: General
     category-id: DIC_kwDOLUgCUM4CdV78
@@ -188,7 +188,7 @@ simple_jekyll_search:
 #      Google      #
 # ---------------- #
 google:
-    analytics_id: G-N9Y96CG108
+    analytics_id: G-W4FXW0B046
     adsense:
         enabled: false
         footer: false

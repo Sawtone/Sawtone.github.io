@@ -14,7 +14,7 @@ I'm Sawtone.
 
 如果此博客对你有帮助，还请为此项目点亮star，感激不尽。
 
-项目地址：https://github.com/Scoodtone/Scoodtone.github.io
+项目地址：https://github.com/Sawtone/Sawtone.github.io
 
 ## 联系
 

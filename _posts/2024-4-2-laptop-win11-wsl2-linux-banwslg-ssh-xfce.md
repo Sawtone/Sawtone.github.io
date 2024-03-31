@@ -1,3 +1,12 @@
+---
+layout: post
+title: Linux | Windows 搭建真实 Linux 内核环境
+categories: Linux
+description: 基于 WSL2 与 xrdp 实现
+keywords: Linux
+---
+
+
 # Windows 利用 WSL2 与 xrdp 服务搭建真实内核Linux环境(带桌面)
 
 老样子，先贴一些官方链接：

@@ -11,9 +11,9 @@ keywords: Linux
 
 老样子，先贴一些官方链接：
 
-安装 WSL: [Microsoft 官网](https://learn.microsoft.com/zh-cn/windows/wsl/install)：https://learn.microsoft.com/zh-cn/windows/wsl/install
+[安装 WSL](https://learn.microsoft.com/zh-cn/windows/wsl/install)：https://learn.microsoft.com/zh-cn/windows/wsl/install
 
-WSLg 教程: [Microsoft 官网](https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/gui-apps)：https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/gui-apps
+[WSLg 教程](https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/gui-apps)：https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/gui-apps
 
 ## 目录
 
@@ -62,7 +62,7 @@ WSL，即适用于 Linux 的 Windows 子系统，微软在 WSL2 中预设了真�
 
 #### 激活 WSL 
 
-根据 [安利\] WSL Linux 子系统，真香！完整实操 - 知乎](https://zhuanlan.zhihu.com/p/146545159)
+根据 [WSL Linux 子系统，真香！完整实操 - 知乎](https://zhuanlan.zhihu.com/p/146545159): https://zhuanlan.zhihu.com/p/146545159
 
 使用具有管理员权限的 Shell (Windows PowerShell) 执行以下命令，即可激活 WSL (激活后需要重启系统)
 
@@ -76,7 +76,7 @@ WSL，即适用于 Linux 的 Windows 子系统，微软在 WSL2 中预设了真�
 
 注：Hyper-V 功能我这里一直开着，不确定需不需要开，如需要，请参照以下教程自行设置：
 
-[Win11 家庭版/专业版开启Hyper-V - 知乎](https://zhuanlan.zhihu.com/p/577980646)
+[Win11 家庭版/专业版开启Hyper-V - 知乎](https://zhuanlan.zhihu.com/p/577980646): https://zhuanlan.zhihu.com/p/577980646
 
 #### 安装 Linux 发行版
 

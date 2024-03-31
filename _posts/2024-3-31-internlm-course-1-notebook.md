@@ -20,7 +20,7 @@ keywords: InternLM
 
 #### 小故事生成 
 
-<img src="C:\Users\Sawtone\AppData\Roaming\Typora\typora-user-images\image-20240331173141837.png" alt="image-20240331173141837"  />
+<img src="images/blog/article-300word.png" alt="article-300word"  />
 
 
 

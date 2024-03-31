@@ -72,7 +72,7 @@ WSL，即适用于 Linux 的 Windows 子系统，微软在 WSL2 中预设了真�
 
 如果页面显示如下，即成功
 
-<img src="C:\Users\Sawtone\AppData\Roaming\Typora\typora-user-images\image-20240331165959021.png" alt="image-20240331165959021" style="zoom: 77%;" />
+![article-300word](/images/blog/activate-wsl.png)
 
 注：Hyper-V 功能我这里一直开着，不确定需不需要开，如需要，请参照以下教程自行设置：
 
@@ -90,9 +90,7 @@ WSL，即适用于 Linux 的 Windows 子系统，微软在 WSL2 中预设了真�
 
 可以同时安装多个 Linux分发版
 
-
-
-<img src="C:\Users\Sawtone\AppData\Roaming\Typora\typora-user-images\image-20240331165456887.png" alt="image-20240331165456887" style="zoom: 77%;" />
+![article-300word](/images/blog/choose-shell.png)
 
 至此，一个具有真实内核且内存占用小的 Linux 系统就成功安装到你的电脑上了
 

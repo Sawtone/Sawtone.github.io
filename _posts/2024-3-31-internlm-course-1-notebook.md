@@ -20,8 +20,7 @@ keywords: InternLM
 
 #### 小故事生成 
 
-<img src="images/blog/article-300word.png" alt="article-300word"  />
-
+![article-300word](/images/blog/article-300word.png)
 
 
 

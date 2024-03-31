@@ -1,3 +1,13 @@
+---
+layout: post
+title: InternLM实战营第二期笔记 & 作业
+categories: [InternLM]
+description: 笔记与基础作业(这次一定！)
+keywords: InternLM
+---
+
+
+
 # Sawtone 的 InternLM 实战营笔记
 
 [InternLM's GitHub](https://github.com/InternLM)：https://github.com/InternLM

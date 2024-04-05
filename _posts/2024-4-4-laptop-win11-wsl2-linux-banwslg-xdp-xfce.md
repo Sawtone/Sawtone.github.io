@@ -7,7 +7,7 @@ keywords: Linux
 ---
 
 
-# Windows 利用 WSL2 与 xrdp 服务搭建真实内核 Linux 环境(带桌面)
+# Windows 利用 WSL2 与 xrdp 服务搭建真实内核 Linux 环境(include桌面)
 
 老样子，先贴一些官方链接：
 

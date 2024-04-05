@@ -1,8 +1,8 @@
-# Scoodtone 的 GitHub Pages 博客
+# Sawtone 的 GitHub Pages 博客
 
-个人博客页面：https://scoodtone.github.io
+个人博客页面：https://sawtone.github.io
 
-vercel托管界面：https://scoodtone-github-io.vercel.app
+vercel托管界面：暂时弃用
 
 ## 一些感想
 
@@ -38,6 +38,6 @@ I wish all of us happy.
 
 mzlogin的个人主页：https://github.com/mzlogin
 
-mzlogin的Markdown：https://github.com/Scoodtone/Scoodtone.github.io/blob/master/MZ_README.md
+mzlogin的Markdown：https://github.com/Sawtone/Sawtone.github.io/blob/master/MZ_README.md
 
 mzlogin的微信公众号：闷骚的程序员

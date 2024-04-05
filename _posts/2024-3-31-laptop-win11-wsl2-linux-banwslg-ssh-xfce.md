@@ -214,7 +214,7 @@ X server 是 Linux 与其他类 UNIX 服务器系统中的 显示服务器，用
 
  此处以 VcXsrv 为例， Xming 同理
 
-![image-20240405151105709](C:\Users\Sawtone\AppData\Roaming\Typora\typora-user-images\image-20240405151105709.png)
+![article-300word](/images/blog/X-server.png)
 
 四个模式分别对应不同的窗口显示模式：
 
@@ -401,11 +401,11 @@ xfce4-session
 
 **登录界面：**
 
-![image-20240405153359594](C:\Users\Sawtone\AppData\Roaming\Typora\typora-user-images\image-20240405153359594.png)
+![article-300word](/images/blog/login-linux.png)
 
 **桌面：**
 
-![image-20240405153430722](C:\Users\Sawtone\AppData\Roaming\Typora\typora-user-images\image-20240405153430722.png)
+![article-300word](/images/blog/xfce4-linux.png)
 
 
 

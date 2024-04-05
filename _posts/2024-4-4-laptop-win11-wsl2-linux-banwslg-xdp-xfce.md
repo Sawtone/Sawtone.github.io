@@ -66,7 +66,7 @@ WSLg ： 1.0.59
 - 大众版：使用Vmware等虚拟机软件，用存储换虚拟内核    缺点：虚拟内核不够真实
 - 双系统版：在一台电脑里搭建两个操作系统，通过开关机切换    缺点：不够方便
 
-**我们将使用的方法不在上列，而是主要依赖 WSL2 **
+**我们将使用的方法不在上列，而是主要依赖 WSL2**
 
 WSL，即适用于 Linux 的 Windows 子系统，微软在 WSL2 中预设了真实 Linux 内核，这使我们不用像传统双系统一样反复开关机切换系统，非常方便
 
@@ -75,7 +75,7 @@ WSL，即适用于 Linux 的 Windows 子系统，微软在 WSL2 中预设了真�
 
 #### 激活 WSL 
 
-根据 [WSL Linux 子系统，真香！完整实操 - 知乎](https://zhuanlan.zhihu.com/p/146545159): https://zhuanlan.zhihu.com/p/146545159
+根据 [WSL Linux 子系统，真香！完整实操 - 知乎](https://zhuanlan.zhihu.com/p/146545159)
 
 使用具有管理员权限的 Shell (Windows PowerShell) 执行以下命令，即可激活 WSL (激活后需要重启系统)
 
@@ -89,7 +89,7 @@ WSL，即适用于 Linux 的 Windows 子系统，微软在 WSL2 中预设了真�
 
 注：Hyper-V 功能我这里一直开着，不确定需不需要开，如需要，请参照以下教程自行设置：
 
-[Win11 家庭版/专业版开启Hyper-V - 知乎](https://zhuanlan.zhihu.com/p/577980646): https://zhuanlan.zhihu.com/p/577980646
+[Win11 家庭版/专业版开启Hyper-V - 知乎](https://zhuanlan.zhihu.com/p/577980646)
 
 #### 安装 Linux 发行版
 

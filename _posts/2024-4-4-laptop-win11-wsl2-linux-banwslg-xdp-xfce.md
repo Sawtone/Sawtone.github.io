@@ -481,7 +481,7 @@ Xrdp 连接的延时较低，能够满足日常需要
 
 对 WSLg 和 X server 的试错成本很高，但这同样是一笔宝贵的经验，希望这些 被我撞过的南墙 能够帮到其他人
 
-***Come bro, Let me save ur day :D***
+***Come on bro, Let me save ur day :D***
 
 如果对你有帮助的话，可以给 Blog 的 Github 项目地址点个 **Star** ，万分感谢！
 

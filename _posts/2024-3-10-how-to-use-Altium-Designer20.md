@@ -66,7 +66,7 @@ Windows -> Close Documents / Close All
 
 ##### Altium Designer 的窗口界面
 
-![image-20240412164018455](C:\Users\Sawtone\AppData\Roaming\Typora\typora-user-images\image-20240412164018455.png)
+![ad-window](/images/blog/ad-window.png)
 
 ### 第二章 Altium Designer 原理图绘制基础
 

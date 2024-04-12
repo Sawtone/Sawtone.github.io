@@ -7,4 +7,4 @@ keywords: STM32
 ---
 
 
-# Keil5 Arm 的安装与 stm32 环境配置和项目创建
+# Keil5 Arm 安装、环境配置与 stm32 项目创建

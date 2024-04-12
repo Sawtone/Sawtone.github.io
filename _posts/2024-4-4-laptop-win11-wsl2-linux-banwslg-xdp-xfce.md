@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Linux | Windows 搭建真实 Linux 内核环境
-categories: [Linux]
+categories: [Linux, WSL]
 description: 基于 WSL2 与 xrdp 实现
-keywords: Linux
+keywords: Linux, WSL
 ---
 
 

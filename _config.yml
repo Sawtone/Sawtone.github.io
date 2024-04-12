@@ -83,7 +83,7 @@ navs:
 
   -
     href: /open-source/
-    label: 开源
+    label: 项目
     mobile-hidden: true
 
   -
@@ -92,7 +92,7 @@ navs:
 
   -
     href: /wiki/
-    label: 维基
+    label: 笔记
 
   -
     href: /links/

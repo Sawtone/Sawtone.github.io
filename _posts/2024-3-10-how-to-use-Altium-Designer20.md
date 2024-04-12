@@ -10,13 +10,13 @@ keywords: PCB
 
 ### 第一章 Altium Designer使用基础
 
-##### **Altium Designer文档资料的管理方式**
+##### Altium Designer文档资料的管理方式
 
 Project Group -> Project -> Many Files
 
 不要设置 Free Document (会编译不成功)
 
-##### **创建新的设计项目**  
+##### 创建新的设计项目
 
 File -> New -> Project 建立工程
 
@@ -26,7 +26,7 @@ File -> New -> Project 建立工程
 
 3、 PCB -> PCB版图文件 创建PCB文件 .PcbDoc
 
-##### **如何显示Project、Navigator、Properties、Components等面板**
+##### 如何显示Project、Navigator、Properties、Components等面板
 
 可以用图钉图标控制两侧面板的浮窗模式开关
 
@@ -40,13 +40,13 @@ Project: 管理项目文件  Navigator  PCB   PCB Filter
 
 Components  Properties 
 
-##### **开启已有工程及文件（2种方法）**
+##### 开启已有工程及文件（2种方法）
 
 1.双击
 
 2.File -> Open Project Group / Open Project / Open
 
-##### **保存多个修改文件** 
+##### 保存多个修改文件
 
 \1. Ctrl + S
 
@@ -54,7 +54,7 @@ Components  Properties
 
 退出的时候系统也会询问
 
-##### **关闭工程及文件（5种方法）**
+##### 关闭工程及文件（5种方法）
 
 File -> Close 
 
@@ -64,19 +64,19 @@ Windows -> Close Documents / Close All
 
 右键 Project面板的文件 or 右键 文件标签
 
-##### **Altium Designer 的窗口界面**
+##### Altium Designer 的窗口界面
 
 ![image-20240412164018455](C:\Users\Sawtone\AppData\Roaming\Typora\typora-user-images\image-20240412164018455.png)
 
-### **第二章** **Altium Designer** 原理图绘制基础
+### 第二章 Altium Designer 原理图绘制基础
 
-##### **Altium Designer **的原理图编辑器
+##### Altium Designer 的原理图编辑器
 
 原理图只关注电器连接正确与否，与器件大小形状无关
 
-#### **工作窗口的放大、缩小和相关操作**
+#### 工作窗口的放大、缩小和相关操作
 
-#####  **画面的放大和缩小（4种方法）**
+#####  画面的放大和缩小（4种方法）
 
 View -> Zoom in / Zoom Out
 
@@ -86,18 +86,18 @@ Ctrl + roll
 
 PageUp / PageDown
 
-##### **显示整张图纸(适配大小)**
+##### 显示整张图纸(适配大小)
 
 View -> Fit Document
 
-#####  **显示图纸中的全部元件(适配大小)**
+#####  显示图纸中的全部元件(适配大小)
 
 View -> Fit All Objects 或 点击图标
 
-#####  **放大画面的选定区域（2种）**
+#####  放大画面的选定区域（2种）
 
 View -> Area / Around Point / 点击图标
 
-#####  **显示画面的刷新**
+#####  显示画面的刷新
 
 End / F5 刷新

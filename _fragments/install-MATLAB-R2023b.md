@@ -2,6 +2,7 @@
 layout: fragment
 title: MATLAB-R2023b 安装
 tags: [MATLAB, Install]
+categories: [MATLAB, Install]
 description: 安装教程
 keywords: MATLAB, Install
 mermaid: false

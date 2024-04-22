@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI|生成式 AI ——Amazon User Group 北京站参会小记
+title: AI | 生成式 AI ——Amazon User Group 北京站参会小记
 categories: [AI, Life]
 description: some-idea-from-aws-user-group
 keywords: AI, Life

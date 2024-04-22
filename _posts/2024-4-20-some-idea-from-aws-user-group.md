@@ -1,10 +1,19 @@
+---
+layout: post
+title: AI|生成式 AI ——Amazon User Group 北京站参会小记
+categories: [AI, Life]
+description: some-idea-from-aws-user-group
+keywords: AI, Life
+---
+
+
 # AI|生成式 AI ——Amazon User Group 北京站参会小记
 
 活动链接：https://mp.weixin.qq.com/s/R4IaPn6e0hBX7FBiL98fGA
 
 ## 目录
 
-[TOC]
+见页面右侧
 
 ### 前言——我的 AI 经历
 

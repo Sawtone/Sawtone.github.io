@@ -7,7 +7,7 @@ keywords: AI, Life
 ---
 
 
-# AI|生成式 AI ——Amazon User Group 北京站参会小记
+# AI | 生成式 AI ——Amazon User Group 北京站参会小记
 
 活动链接：https://mp.weixin.qq.com/s/R4IaPn6e0hBX7FBiL98fGA
 

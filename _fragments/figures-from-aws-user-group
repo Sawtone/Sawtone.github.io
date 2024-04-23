@@ -3,7 +3,7 @@ layout: fragment
 title: 2024 Beijing AWS User Group 图集
 tags: [Photo, AI]
 categories: [Photo, AI]
-description: 安装教程
+description: 图集
 keywords: Photo, AI
 mermaid: false
 sequence: false
@@ -14,6 +14,7 @@ mindmap2: false
 ---
 
 ![article-300word](/images/fragments/20240420/0.jpg)
+<img src="/images/fragments/20240420/0.jpg" alt="article-300word" width="300" height="200">
 ![article-300word](/images/fragments/20240420/11.jpg)
 ![article-300word](/images/fragments/20240420/12.jpg)
 ![article-300word](/images/fragments/20240420/13.jpg)

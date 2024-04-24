@@ -25,7 +25,7 @@ components:
     share:
         enabled: false
         hide-platforms: qq,facebook
-    # 不蒜子访问统计
+    # 不蒜子访问统计 https://ibruce.info/2015/04/04/busuanzi/
     busuanzi:
         enabled: true
         start_date: 2024-04-24

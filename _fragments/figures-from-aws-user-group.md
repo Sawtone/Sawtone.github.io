@@ -13,7 +13,10 @@ mindmap: false
 mindmap2: false
 ---
 
-<img src="/images/fragments/20240420/0.jpg" alt="article-300word" width="950" height="550">
+<img src="/images/fragments/20240420/0.jpg" alt="article-300word" width="300">
+<img src="/images/fragments/20240420/11.jpg" alt="article-300word" width="300" >
+<img src="/images/fragments/20240420/12.jpg" alt="article-300word" width="300">
+<img src="/images/fragments/20240420/13.jpg" alt="article-300word" width="300">
 ![article-300word](/images/fragments/20240420/11.jpg)
 ![article-300word](/images/fragments/20240420/12.jpg)
 ![article-300word](/images/fragments/20240420/13.jpg)

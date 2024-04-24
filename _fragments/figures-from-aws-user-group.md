@@ -1,5 +1,5 @@
 ---
-layout: fragment
+layout: gallery
 title: 2024 Beijing AWS User Group 图集
 tags: [Photo, AI]
 categories: [Photo, AI]

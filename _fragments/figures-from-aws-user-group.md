@@ -20,7 +20,7 @@ mindmap2: false
 
 ## 活动合影
 
-活动 Blog 见：[生成式 AI ——Amazon User Group 北京站参会小记](https://sawtone.github.io/2024/04/20/some-idea-from-aws-user-group)
+活动 Blog 见：https://sawtone.github.io/2024/04/20/some-idea-from-aws-user-group
 
 <a href="/images/fragments/20240420/0.jpg"><img src="/images/fragments/20240420/0.jpg"></a>
 

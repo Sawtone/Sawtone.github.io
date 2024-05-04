@@ -17,6 +17,10 @@ mindmap2: false
 <img src="/images/fragments/20240420/11.jpg" alt="article-300word" width="174" >
 <img src="/images/fragments/20240420/12.jpg" alt="article-300word" width="174">
 <img src="/images/fragments/20240420/13.jpg" alt="article-300word" width="174">
+<a href="/images/fragments/20240420/0.jpg"><img src="/images/fragments/20240420/0.jpg"></a>
+<a href="/images/fragments/20240420/11.jpg"><img src="/images/fragments/20240420/11.jpg"></a>
+<a href="/images/fragments/20240420/12.jpg"><img src="/images/fragments/20240420/12.jpg"></a>
+<a href="/images/fragments/20240420/13.jpg"><img src="/images/fragments/20240420/13.jpg"></a>
 ![article-300word](/images/fragments/20240420/11.jpg)
 ![article-300word](/images/fragments/20240420/12.jpg)
 ![article-300word](/images/fragments/20240420/13.jpg)

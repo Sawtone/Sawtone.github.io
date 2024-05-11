@@ -10,6 +10,7 @@ keywords: AI, Life
 # AI | 生成式 AI ——Amazon User Group 北京站参会小记
 
 活动链接：https://mp.weixin.qq.com/s/R4IaPn6e0hBX7FBiL98fGA
+活动图集：https://sawtone.github.io/fragment/figures-from-aws-user-group/
 
 ## 目录
 

@@ -375,6 +375,8 @@ xfce4-session
 
 格式为 xxx.xxx.xxx.xxx (xxx 指代两位数或三位数)
 
+或在 cmd 中输入 `ipconfig` 并运行，在最下方标注 WSL 的 ip 地址栏找到对应的 iPV4 地址
+
 两个优质的教程，可参考：
 
 [玩转 WSL 并配置Linux下的开发调试环境(Linux初学者福音) - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/49227132) 

@@ -35,17 +35,19 @@ STM32F103C8T6 芯片引脚定义与功能：[https://blog.csdn.net/weixin_603242
 
 理论参考：[https://blog.csdn.net/michaelchain/article/details/119628190](https://blog.csdn.net/michaelchain/article/details/119628190)
 
-实操：[https://www.cnblogs.com/zeng-1995/p/11308622.html](https://www.cnblogs.com/zeng-1995/p/11308622.html)
+实操：
 
-     [https://blog.csdn.net/dorlolo/article/details/109181681](https://blog.csdn.net/dorlolo/article/details/109181681)
+[https://www.cnblogs.com/zeng-1995/p/11308622.html](https://www.cnblogs.com/zeng-1995/p/11308622.html)
+
+[https://blog.csdn.net/dorlolo/article/details/109181681](https://blog.csdn.net/dorlolo/article/details/109181681)
      
 STM32F103C8官方包下载地址：[https://www.keil.arm.com/devices/stmicroelectronics-stm32f103c8/features/](https://www.keil.arm.com/devices/stmicroelectronics-stm32f103c8/features/)
 
 ## STLink 烧录工具配置与使用
 
-根据：[https://zhuanlan.zhihu.com/p/576546695](https://zhuanlan.zhihu.com/p/576546695)
+[https://zhuanlan.zhihu.com/p/576546695](https://zhuanlan.zhihu.com/p/576546695)
 
-     [https://blog.csdn.net/qq_43064170/article/details/97155662](https://blog.csdn.net/qq_43064170/article/details/97155662)
+[https://blog.csdn.net/qq_43064170/article/details/97155662](https://blog.csdn.net/qq_43064170/article/details/97155662)
 
 ## 部分报错与问题收集
 
@@ -73,9 +75,11 @@ notepad++ 下载地址：[https://sourceforge.net/projects/notepadplusplus.mirro
 
 只是一般的文件缺失问题
 
-解决方案：[https://blog.csdn.net/qq_39807955/article/details/103318558](https://blog.csdn.net/qq_39807955/article/details/103318558)
+解决方案：
 
-         [https://blog.csdn.net/weixin_43716668/article/details/128952277](https://blog.csdn.net/weixin_43716668/article/details/128952277)
+[https://blog.csdn.net/qq_39807955/article/details/103318558](https://blog.csdn.net/qq_39807955/article/details/103318558)
+
+[https://blog.csdn.net/weixin_43716668/article/details/128952277](https://blog.csdn.net/weixin_43716668/article/details/128952277)
 
 ### Missing Compiler Version 5（重要）
 
@@ -87,9 +91,11 @@ notepad++ 下载地址：[https://sourceforge.net/projects/notepadplusplus.mirro
 
 STM32 移植 U8g2 图形库：[https://zhuanlan.zhihu.com/p/489251923](https://zhuanlan.zhihu.com/p/489251923)
 
-sg90 舵机接线：[https://zhuanlan.zhihu.com/p/573218204](https://zhuanlan.zhihu.com/p/573218204)
+sg90 舵机接线：
 
-              [https://blog.csdn.net/SHRtuji/article/details/113354315](https://blog.csdn.net/SHRtuji/article/details/113354315)
+[https://zhuanlan.zhihu.com/p/573218204](https://zhuanlan.zhihu.com/p/573218204)
+          
+[https://blog.csdn.net/SHRtuji/article/details/113354315](https://blog.csdn.net/SHRtuji/article/details/113354315)
 
 ## 后记
 

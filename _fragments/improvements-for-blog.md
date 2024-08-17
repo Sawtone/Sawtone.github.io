@@ -21,7 +21,13 @@ mindmap2: false
 
 那么如何修改其默认属性为新标签页跳转呢
 
-将原来的 \[sawtone.github.io\]\(sawtone.github.io\) 修改为 \<a href\="sawtone.github.io" target\="_blank"\>sawtone.github.io\</a\>
+将原来的
+
+\[sawtone.github.io\]\(sawtone.github.io\) 
+
+修改为 
+
+\<a href\="sawtone.github.io" target\="_blank"\>sawtone.github.io\</a\>
 
 这样，超链接便具有了 target="_blank" 属性
 

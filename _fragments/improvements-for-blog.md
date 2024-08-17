@@ -1,4 +1,4 @@
-![0F25D20DEC5B17667E8B45FFD4600804](https://github.com/user-attachments/assets/c03a0785-00d6-4b3e-bada-8987b8709df2)---
+---
 layout: fragment
 title: 我对 Blog 作出的一些改进
 tags: [Blog]

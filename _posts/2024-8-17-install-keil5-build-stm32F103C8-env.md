@@ -19,55 +19,55 @@ Tip1：下文用到的 STM32F103C8T6 是 Arm 架构，而51单片机大多为 C5
 
 Tip2：两种架构在非共存状态下会相互覆盖，不能通过安装两个不同架构的 Keil5 软件达成共存（已踩坑）
 
-Tip3：另一个很不错的辅助资料：[https://blog.csdn.net/yc5300891/article/details/80635860](https://blog.csdn.net/yc5300891/article/details/80635860)
+Tip3：另一个很不错的辅助资料：<a href="https://blog.csdn.net/yc5300891/article/details/80635860" target="_blank">https://blog.csdn.net/yc5300891/article/details/80635860</a>
 
-Tip4：官方下载地址参考：[https://blog.csdn.net/weixin_43992330/article/details/135207272](https://blog.csdn.net/weixin_43992330/article/details/135207272)
+Tip4：官方下载地址参考：<a href="https://blog.csdn.net/weixin_43992330/article/details/135207272" target="_blank">https://blog.csdn.net/weixin_43992330/article/details/135207272</a>
 
 ## Keil5 使用相关
 
-软件基础使用：[https://zhuanlan.zhihu.com/p/345191075](https://zhuanlan.zhihu.com/p/345191075)
+软件基础使用：<a href="https://zhuanlan.zhihu.com/p/345191075" target="_blank">https://zhuanlan.zhihu.com/p/345191075</a>
 
 ## STM32F103C8T6 开发环境配置与工程建立
 
 首先声明：配置过程中报错太多太多了，如果不是对自己的基础要求很高的话，请直接找一个现成的 STM32 Project，然后修改内部代码直接用就行
 
-STM32F103C8T6 芯片引脚定义与功能：[https://blog.csdn.net/weixin_60324241/article/details/136492164](https://blog.csdn.net/weixin_60324241/article/details/136492164)
+STM32F103C8T6 芯片引脚定义与功能：<a href="https://blog.csdn.net/weixin_60324241/article/details/136492164" target="_blank">https://blog.csdn.net/weixin_60324241/article/details/136492164</a>
 
-理论参考：[https://blog.csdn.net/michaelchain/article/details/119628190](https://blog.csdn.net/michaelchain/article/details/119628190)
+理论参考：<a href="https://blog.csdn.net/michaelchain/article/details/119628190" target="_blank">https://blog.csdn.net/michaelchain/article/details/119628190</a>
 
 实操：
 
-[https://www.cnblogs.com/zeng-1995/p/11308622.html](https://www.cnblogs.com/zeng-1995/p/11308622.html)
+<a href="https://www.cnblogs.com/zeng-1995/p/11308622.html" target="_blank">https://www.cnblogs.com/zeng-1995/p/11308622.html</a>
 
-[https://blog.csdn.net/dorlolo/article/details/109181681](https://blog.csdn.net/dorlolo/article/details/109181681)
+<a href="https://blog.csdn.net/dorlolo/article/details/109181681" target="_blank">https://blog.csdn.net/dorlolo/article/details/109181681</a>
      
-STM32F103C8官方包下载地址：[https://www.keil.arm.com/devices/stmicroelectronics-stm32f103c8/features/](https://www.keil.arm.com/devices/stmicroelectronics-stm32f103c8/features/)
+STM32F103C8官方包下载地址：<a href="https://www.keil.arm.com/devices/stmicroelectronics-stm32f103c8/features/" target="_blank">https://www.keil.arm.com/devices/stmicroelectronics-stm32f103c8/features/</a>
 
 ## STLink 烧录工具配置与使用
 
-[https://zhuanlan.zhihu.com/p/576546695](https://zhuanlan.zhihu.com/p/576546695)
+<a href="https://zhuanlan.zhihu.com/p/576546695" target="_blank">https://zhuanlan.zhihu.com/p/576546695</a>
 
-[https://blog.csdn.net/qq_43064170/article/details/97155662](https://blog.csdn.net/qq_43064170/article/details/97155662)
+<a href="https://blog.csdn.net/qq_43064170/article/details/97155662" target="_blank">https://blog.csdn.net/qq_43064170/article/details/97155662</a>
 
 ## 部分报错与问题收集
 
 ### Error: L6218E: Undefined symbol main (referred from __rtentry2.o)
 
-解决方案：[https://blog.csdn.net/qq_42224089/article/details/122148748](https://blog.csdn.net/qq_42224089/article/details/122148748)
+解决方案：<a href="https://blog.csdn.net/qq_42224089/article/details/122148748" target="_blank">https://blog.csdn.net/qq_42224089/article/details/122148748</a>
 
 ### CORE/core_cm3.c(xxx): error:xxxxxxxxxxxxx
 
-解决方案：[https://blog.csdn.net/weixin_43874303/article/details/108767842](https://blog.csdn.net/weixin_43874303/article/details/108767842)
+解决方案：<a href="https://blog.csdn.net/weixin_43874303/article/details/108767842" target="_blank">https://blog.csdn.net/weixin_43874303/article/details/108767842</a>
 
 ### UTF-8 编码状态下报错
 
-解决方案：[https://zhuanlan.zhihu.com/p/686374842](https://zhuanlan.zhihu.com/p/686374842)
+解决方案：<a href="https://zhuanlan.zhihu.com/p/686374842" target="_blank">https://zhuanlan.zhihu.com/p/686374842</a>
 
-notepad++ 下载地址：[https://sourceforge.net/projects/notepadplusplus.mirror](https://sourceforge.net/projects/notepadplusplus.mirror)
+notepad++ 下载地址：<a href="https://sourceforge.net/projects/notepadplusplus.mirror" target="_blank">https://sourceforge.net/projects/notepadplusplus.mirror</a>
 
 ### 中文注释会乱码
 
-解决方案：[https://blog.csdn.net/wuhenyouyuyouyu/article/details/121204223](https://blog.csdn.net/wuhenyouyuyouyu/article/details/121204223)
+解决方案：<a href="https://blog.csdn.net/wuhenyouyuyouyu/article/details/121204223" target="_blank">https://blog.csdn.net/wuhenyouyuyouyu/article/details/121204223</a>
 
 其实也是用 notepad++ 转 UTF-8，可见编码格式某些情况下还是很重要的
 
@@ -77,25 +77,26 @@ notepad++ 下载地址：[https://sourceforge.net/projects/notepadplusplus.mirro
 
 解决方案：
 
-[https://blog.csdn.net/qq_39807955/article/details/103318558](https://blog.csdn.net/qq_39807955/article/details/103318558)
+<a href="https://blog.csdn.net/qq_39807955/article/details/103318558" target="_blank">https://blog.csdn.net/qq_39807955/article/details/103318558</a>
 
-[https://blog.csdn.net/weixin_43716668/article/details/128952277](https://blog.csdn.net/weixin_43716668/article/details/128952277)
+<a href="https://blog.csdn.net/weixin_43716668/article/details/128952277" target="_blank">https://blog.csdn.net/weixin_43716668/article/details/128952277</a>
 
 ### Missing Compiler Version 5（重要）
 
 编译器版本不匹配，这个问题一些朋友也遇到过，应该发生率很高
 
-解决方案：[https://blog.csdn.net/leveling99/article/details/129777266](https://blog.csdn.net/leveling99/article/details/129777266)
+解决方案：<a href="https://blog.csdn.net/leveling99/article/details/129777266" target="_blank">https://blog.csdn.net/leveling99/article/details/129777266</a>
 
 ## 可能有用的内容
 
-STM32 移植 U8g2 图形库：[https://zhuanlan.zhihu.com/p/489251923](https://zhuanlan.zhihu.com/p/489251923)
+STM32 移植 U8g2 图形库：<a href="https://zhuanlan.zhihu.com/p/489251923" target="_blank">https://zhuanlan.zhihu.com/p/489251923</a>
 
 sg90 舵机接线：
 
-[https://zhuanlan.zhihu.com/p/573218204](https://zhuanlan.zhihu.com/p/573218204)
+<a href="https://zhuanlan.zhihu.com/p/573218204" target="_blank">https://zhuanlan.zhihu.com/p/573218204</a>
           
-[https://blog.csdn.net/SHRtuji/article/details/113354315](https://blog.csdn.net/SHRtuji/article/details/113354315)
+<a href="https://blog.csdn.net/SHRtuji/article/details/113354315" target="_blank">https://blog.csdn.net/SHRtuji/article/details/113354315</a>
+
 
 ## 后记
 

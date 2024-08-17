@@ -11,7 +11,7 @@ keywords: STM32
 
 ## Keil5 安装，实现 Arm & C51 共存
 
-根据：[https://blog.csdn.net/get_p_c_j/article/details/132968501](https://blog.csdn.net/get_p_c_j/article/details/132968501)
+根据：<a href="https://blog.csdn.net/get_p_c_j/article/details/132968501" target="_blank">https://blog.csdn.net/get_p_c_j/article/details/132968501</a>
 
 一步步做就可以实现 Arm 与 C51 在同一个 Keil5 里的共存
 

@@ -112,8 +112,7 @@ if、if...else、if...else if、switch、for、while、do...while 同 C语言
 
 标签相当于跳出循环的定位符，与 break 和 continue 配合使用，可跳出特定的循环
 
-<details>
-<summary> 与 break 搭配</summary>
+- 与 break 搭配：
 
 ```JavaScript
 Circle1:
@@ -135,8 +134,7 @@ i = 1, j = 0
 ```
 </details>
 
-<details>
-<summary> 与 普通代码块 搭配</summary>
+- 与 普通代码块 搭配：
 
 ```JavaScript
 testPart: {
@@ -153,8 +151,7 @@ We will get:
 ```
 </details>
 
-<details>
-<summary> 与 continue 搭配</summary>
+- 与 continue 搭配：
 
 ```JavaScript
 Circle1:

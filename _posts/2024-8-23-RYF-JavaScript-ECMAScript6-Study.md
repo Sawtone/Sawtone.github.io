@@ -132,7 +132,7 @@ i = 0, j = 2
 i = 1, j = 0
 */
 ```
-</details>
+
 
 - 与 普通代码块 搭配：
 
@@ -149,7 +149,7 @@ We will get:
 2
 */
 ```
-</details>
+
 
 - 与 continue 搭配：
 
@@ -174,7 +174,7 @@ i = 2, j = 1
 i = 2, j = 2
 */
 ```
-</details>
+
 
 
 ### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-genera.md" target="_blank">Part 2-1 数据类型概述</a>

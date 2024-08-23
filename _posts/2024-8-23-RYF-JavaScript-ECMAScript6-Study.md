@@ -12,15 +12,15 @@ Tip：以下所有大标题都设置了超链接方便查阅
 
 ### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-basic-introduction.md" target="_blank">Part 1-1 导论A</a>
 
-JavaScript: 轻量级脚本语言 | 嵌入式语言 | 对象模型语言
+JavaScript: 轻量级脚本语言 \| 嵌入式语言 \| 对象模型语言
 
-浏览器环境提供的额外 API：浏览器控制类 | DOM 类 | Web 类
+浏览器环境提供的额外 API：浏览器控制类 \| DOM 类 \| Web 类
 
-适用领域：浏览器平台化 | Node 服务器端 | 数据库操作 | 移动平台开发 | 应用内嵌脚本语言 | 跨平台桌面应用
+适用领域：浏览器平台化 \| Node 服务器端 \| 数据库操作 \| 移动平台开发 \| 应用内嵌脚本语言 \| 跨平台桌面应用
 
-学习关键点：外部API | 语言本身缺陷与陷阱
+学习关键点：外部API \| 语言本身缺陷与陷阱
 
-性能优势：语法灵活、对象 | 编译运行 | 事件驱动与非阻塞式设计
+性能优势：语法灵活、对象 \| 编译运行 \| 事件驱动与非阻塞式设计
 
 ### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-basic-history.md" target="_blank">Part 1-2 导论B</a> 
 

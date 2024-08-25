@@ -199,7 +199,7 @@ null  | ⭐️object
 
 Tip：`instanceof` 运算符可以区分空数组与普通对象
 
-⭐️思考：
+#### ⭐️思考：
 
 利用独一无二的 `typeof(undefined) = undefined`
 

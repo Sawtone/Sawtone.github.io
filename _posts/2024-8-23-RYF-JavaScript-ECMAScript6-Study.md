@@ -32,11 +32,7 @@ JavaScript 编程风格是函数式编程和面向对象编程的一种混合体
 
 #### 重要历史
 
-2001年，JSON 格式被提出，用于取代 XML 格式进行服务器和网页之间的数据交换。JavaScript 原生支持 json，不需要额外部署代码。
-
 2009年，Node.js 项目诞生，标志着 JavaScript 可以用于服务器端编程
-
-2010年，三个重要的项目 NPM、BackboneJS 和 RequireJS 诞生，标志着 JavaScript 进入模块化开发的时代
 
 2011年6月，ECMAScript 5.1 版正式发布
 
@@ -45,8 +41,6 @@ JavaScript 编程风格是函数式编程和面向对象编程的一种混合体
 2015年3月，React Native 项目发布，它将 React 框架移植到手机端，从而将 JavaScript 代码转为 iOS 的 Objective-C 或 Android 的 Java 
 
 2015年6月，ECMAScript 6 正式发布，并且更名为“ ECMAScript 2015 ”
-
-2017年6月，《ECMAScript 2017 标准》发布，正式引入了 async 函数，使得异步操作的写法出现了根本的变化
 
 #### JavaScript 与 Java 的区别与联系
 
@@ -68,13 +62,13 @@ JavaScript 编程风格是函数式编程和面向对象编程的一种混合体
 
 JavaScript 的变量名区分大小写
 
-声明变量但不赋值，则变量的值是 undefined
+声明变量但不赋值，则变量的值是 `undefined`
 
 变量的类型没有限制，变量可以随时更改类型
 
-var a = 1 基本等同于 a = 1，但不写 var 容易不知不觉地创建全局变量，建议总是使用var命令声明变量
+`var a = 1` 基本等同于 `a = 1`，但不写 `var` 容易不知不觉地创建全局变量，建议总是使用 `var` 命令声明变量
 
-使用 var 重新声明一个已经存在的变量是无效的，变量将保持第一次声明时的状态（如果重新声明时顺便赋值，则赋值成功并会覆盖之前的状态）
+使用 `var` 重新声明一个已经存在的变量是无效的，变量将保持第一次声明时的状态（如果重新声明时顺便赋值，则赋值成功并会覆盖之前的状态）
 
 #### ⭐️变量提升（hoisting）
 
@@ -86,7 +80,7 @@ Tip：只有声明语句会得到提升，单独的赋值语句不会被提升
 
 #### JavaScript 保留字
 
-arguments、break、case、catch、class、const、continue、debugger、default、delete、do、else、enum、eval、export、extends、false、finally、for、function、if、implements、import、in、instanceof、interface、let、new、null、package、private、protected、public、return、static、super、switch、this、throw、true、try、typeof、var、void、while、with、yield
+`arguments、break、case、catch、class、const、continue、debugger、default、delete、do、else、enum、eval、export、extends、false、finally、for、function、if、implements、import、in、instanceof、interface、let、new、null、package、private、protected、public、return、static、super、switch、this、throw、true、try、typeof、var、void、while、with、yield`
 
 #### ⭐️注释陷阱（HTML）
 
@@ -110,9 +104,9 @@ if、if...else、if...else if、switch、for、while、do...while 同 C语言
 
 #### ⭐️标签（破环定位符）
 
-标签相当于跳出循环的定位符，与 break 和 continue 配合使用，可跳出特定的循环
+标签相当于跳出循环的定位符，与 `break` 和 `continue` 配合使用，可跳出特定的循环
 
-- 与 break 搭配：
+- 与 `break` 搭配：
 
 ```JavaScript
 Circle1:
@@ -151,7 +145,7 @@ We will get:
 ```
 
 
-- 与 continue 搭配：
+- 与 `continue` 搭配：
 
 ```JavaScript
 Circle1:
@@ -182,14 +176,14 @@ i = 2, j = 2
 七种数据类型：
 - 原始类型：数值(number)、字符串(string)、布尔值(boolean)
 - 合成类型：对象(object)
-- 特殊类型：undefined、null
+- 特殊类型：`undefined`、`null`
 - ES6新增：Symbol
 
 其中对象又可分为三种：狭义对象(object)、数组(array)、函数(function)
 
 #### 确定数据类型(typeof)
 
-Tip:instanceof 运算符 与 Object.prototype.toString 方法 也可以确定数据类型，此处先不展开
+Tip:`instanceof` 运算符 与 `Object.prototype.toString` 方法 也可以确定数据类型，此处先不展开
 
 数据类型 | typeof()结果
 -------|----------
@@ -203,13 +197,13 @@ null  | ⭐️object
 {} | object
 空数组[] | object
 
-Tip：instanceof 运算符可以区分空数组与普通对象
+Tip：`instanceof` 运算符可以区分空数组与普通对象
 
 ⭐️思考：
 
-利用独一无二的 typeof(undefined)=undefined
+利用独一无二的 `typeof(undefined) = undefined`
 
-我们可以效仿 C++、Python 异常处理来处理未定义导致的异常
+我们可以效仿 C++、Python 异常处理机制来处理未定义导致的异常
 
 与其发生：
 
@@ -234,6 +228,147 @@ if (v) {
 ```
 ### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types--null-undefined-boolean.md" target="_blank">Part 2-2 null、undefined、boolean 详解</a>
 
+#### 浅析 undefined 与 null 
+
+相等运算符(==)会直接报告 `undefined` 与 `null` 相等
+
+`null` 转为数值是 `0` ，不利于实现错误处理机制，故设计 `undefined` 并使其数值为 `NaN` 
+
+返回undefined的典型场景 | 代码  | undefined
+-------|----------|----------
+变量已声明，但未赋值 | var i | i 
+调用函数未提供应有参数 | function f(x) {return x;} | x
+对象的某个属性没有赋值 | var o = new Object( ) | o.p
+函数没有返回值时 | function f( ) { }  | f( )
+
+#### true & false
+
+会被转换为 `false` 的六个值：undefined、null、false、0、NaN、空字符串(""、'')
+
+其余值都被视为 `true`（⭐️包括空数组[ ]和空对象{ }）
+
+### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-number.md" target="_blank">Part 2-3 数值与相关方法</a>
+
+JavaScript 内所有数字均以 64 位浮点数形式储存，1 与 1.0 严格相等(===)
+
+Tip：某些运算只有整数才能完成，此时 JavaScript 会自动把 64 位浮点数转成 32 位整数，然后再进行运算
+
+浮点数不精确，所以要注意：
+
+```JavaScript
+(0.3 - 0.2) === (0.2 - 0.1)
+// false
+```
+#### 范围与精度
+
+JavaScript 64 位浮点数采用国际标准 IEEE 754
+
+- 第 1 位：符号位，0 表示正数，1 表示负数
+- 第 2 位到第 12 位（共 11 位）：指数部分  
+- 第 13 位到第 64 位（共 52 位）：小数部分（即有效数字）
+
+小数部分 53 个二进制位
+
+运算精度范围为 $[-2^{53},2^{53}]$
+
+$2^{53}$ = 9,007,199,254,740,992，共 16 位
+
+指数部分 11 个二进制位，最大值为 $2^{11}-1$ = 2047，分出 1023 表示负数，则正区间边界为1024，负区间边界为1023 + 小数部分52 = 1075
+
+数值表示范围为 $(-2^{1075},2^{1024})$
+
+等于或超出两侧边界会发生 正溢出/负溢出
+
+正溢出(overflow)返回 `Infinity`，负溢出(underflow)返回 `0` 
+
+Tip：Number 对象的 `MAX_VALUE` 和 `MIN_VALUE` 属性可返回具体的最大值和最小值
+
+#### 科学记数法
+
+以下两种情况，JavaScript 会自动将数值转为科学计数法表示：
+
+- 小数点前的数字多于21位
+- 小数点后的零多于5个
+
+#### 进制
+
+- 八进制：有前缀 `0o` 或 `0O` 的数值，或者有前导 0 且只用到 0-7 的数值
+- 十六进制：有前缀 `0x` 或 `0X` 的数值
+- 二进制：有前缀 `0b` 或 `0B` 的数值
+
+如果八进制、十六进制、二进制的数值里面出现不属于该进制的数字，会报错
+
+Tip: 只有前导 0 且只用到 0-7 的数值会破例被视为八进制，这种表示方法在处理时很容易造成混乱，ES5 的严格模式和 ES6 已经废除了这种表示法，但是浏览器为了兼容以前的代码，目前还继续支持这种表示法。
+
+#### 特殊数值
+
+**正零与负零**
+
+JavaScript 内部实际上存在 `+0` 和 `-0`，它们严格相等(===)
+
+`+0` 或 `-0` 当作分母时，返回的值是不相等的，其他几乎所有场合，它们都被视为正常的 0
+
+Tip：不相等是因为除以 `+0` 得到 `+Infinity`，除以 `-0` 得到 `-Infinity`
+
+**NaN(Not a Number)**
+
+`NaN` 不是一个独立的数据类型，属于数值(number)
+
+`NaN` 主要出现在以下三种场合：
+
+- 将字符串解析成数字出错 eg：`5 - 'apple' = NaN`
+- 数学函数错误运算 eg：`Math.acos(2) Math.log(-1) Math.sqrt(-1) // NaN`
+- `0 / 0 = NaN`
+
+运算规则大体如下：
+
+- `NaN` 不等于任何值，包括它本身
+- `NaN` 与任何数（包括它自己）的运算，得到的都是 `NaN`
+- `NaN` 在布尔运算时被当作 `false`
+- 数组查找索引方法 `indexOf()` 底层使用严格相等，类似方法对 `NaN` 不成立
+
+**+Infinity & -Infinity**
+
+`Infinity` 不是一个独立的数据类型，属于数值(number)
+
+`Infinity` 主要出现在以下两种场合：
+
+- 数值太大 eg：`Math.pow(2, 1024) // Infinity`
+- 非 0 数值除以 0 eg：`1 / 0 = Infinity` \| `1 / -0 = -Infinity`
+
+`+Infinity` 大于 `NaN` 以外一切数值，`-Infinity` 小于 `NaN` 以外一切数值
+
+运算规则大体如下：
+
+- `Infinity` 与 `NaN` 作比较，总是返回 `false`
+- 加减乘除基本运算符合数学中无限的定义
+- `0 * Infinity = NaN` \| `0 / Infinity = 0` \| `Infinity / 0 = Infinity`
+- `Infinity + Infinity = Infinity` \| `Infinity * Infinity = Infinity`
+- `Infinity - Infinity = NaN` \| `Infinity / Infinity = NaN`
+- `Infinity` 与 `null` 计算时，`null` 会转成 `0`，等同于与 `0` 的计算
+- `Infinity` 与 `undefined` 计算，总是返回 `NaN`
+
+Tip: 数值正溢出(overflow)、负溢出(underflow)、除以 0、被 0 除都不会报错，所以单纯的数学运算很难出现 ERROR
+
+
+#### 数值相关全局方法
+
+**parseInt()**
+
+
+
+
+**parseFloat()**
+
+
+
+
+**isNaN()**
+
+
+
+
+**isFinite()**
 
 
 
@@ -241,8 +376,27 @@ if (v) {
 
 
 
+### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-string.md" target="_blank">Part 2-4 字符串与字符集</a>
 
 
+
+
+
+### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-object.md" target="_blank">Part 2-5 对象与属性</a>
+
+
+
+
+### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-function.md" target="_blank">Part 2-6 函数——属性、方法、作用域、闭包</a>
+
+
+
+
+### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-array.md" target="_blank">Part 2-7 数组</a>
+
+
+
+### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-operators-arithmetic.md" target="_blank">Part 3-1 算术运算符</a>
 
 
 

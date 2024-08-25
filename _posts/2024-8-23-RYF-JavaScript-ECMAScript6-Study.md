@@ -34,8 +34,6 @@ JavaScript 编程风格是函数式编程和面向对象编程的一种混合体
 
 2009年，Node.js 项目诞生，标志着 JavaScript 可以用于服务器端编程
 
-2009年12月，ECMAScript 5.0 版正式发布
-
 2010年，三个重要的项目 NPM、BackboneJS 和 RequireJS 诞生，标志着 JavaScript 进入模块化开发的时代
 
 2011年6月，ECMAScript 5.1 版正式发布
@@ -90,11 +88,11 @@ arguments、break、case、catch、class、const、continue、debugger、default
 
 #### ⭐️注释陷阱（HTML）
 
-JavaScript 可以兼容 HTML 注释，即 <!-- 和 --> 也可作为单行注释
+JavaScript 可以兼容 HTML 注释，即 \<!- - 和 - -\> 也可作为单行注释
 
-但 --> 只有在行首，才会被当成单行注释，否则会被当作运算
+但 - -> 只有在行首，才会被当成单行注释，否则会被当作运算
 
-eg： n --> 0 实际上是 n-- > 0 
+eg： n - -> 0 实际上是 n- - > 0 
 
 #### 区块
 

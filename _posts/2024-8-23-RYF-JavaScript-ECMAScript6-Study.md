@@ -6,6 +6,8 @@ description: JavaScript
 keywords: JavaScript
 ---
 
+# 写点关于《阮一峰 JavaScript 教程》《阮一峰 ECMAScript6 标准入门教程》的阅读笔记与感悟
+
 ## <a href="https://www.bookstack.cn/read/javascript-tutorial/README.md" target="_blank">JavaScript (ES5)</a>
 
 Tip：以下所有大标题都设置了超链接方便查阅

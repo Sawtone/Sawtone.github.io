@@ -15,7 +15,7 @@ keywords: JavaScript, HTML
 
 写 <a href="https://sawtone.github.io/2024/08/23/RYF-JavaScript-ECMAScript6-Study/" target="_blank">阮一峰 JavaScript & ECMAScript6 学习笔记与思考</a> 这篇博客时
 
-我使用上面提到的超链接方式，以章节为分界，为每个小节设置了一个带超链接的三级标题
+我使用内嵌超链接的方式，以章节为分界，为每个小节设置了一个带超链接的三级标题
 
 ```markdown
 // 例子

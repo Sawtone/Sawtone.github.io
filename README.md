@@ -14,7 +14,7 @@ vercel托管界面：暂时弃用
 
 兼因假期尝试的一个基于 express.js 的桌面程序让我体会到 css, html, js 三件套的博大精深， 另一个基于 Node.js, React.js, Flask 的项目尝试更让我焦头烂额。
 
-无奈之下，我选择GitHub Pages搭建博客，幸得mzlogin大佬模板，该博客由此而来。
+无奈之下，我选择 GitHub Pages 搭建博客，幸得 mzlogin 大佬模板，该博客由此而来。
 
 在这里希望我能在博客使用过程中言之有物，言有所悟，也希望我能在今后不忘初心，勇往直前。
 
@@ -36,8 +36,8 @@ I wish all of us happy.
 
 本博客外观基于 [mzlogin](https://github.com/mzlogin/mzlogin.github.io) 修改，感谢mz大佬！
 
-mzlogin的个人主页：https://github.com/mzlogin
+mzlogin 的个人主页：https://github.com/mzlogin
 
-mzlogin的Markdown：https://github.com/Sawtone/Sawtone.github.io/blob/master/MZ_README.md
+mzlogin 的 Markdown：https://github.com/Sawtone/Sawtone.github.io/blob/master/MZ_README.md
 
-mzlogin的微信公众号：闷骚的程序员
+mzlogin 的微信公众号：闷骚的程序员

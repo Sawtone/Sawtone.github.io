@@ -1,12 +1,12 @@
 ---
 layout: post
-title: InternLM2-Chat-7B环境库附录
+title: AI | 量化搭建 InternLM2-Chat-7B 环境库清单
 categories: [InternLM, appendix]
 description: 一个附录
 keywords: InternLM, appendix
 ---
 
-# 同一天那篇文章的环境库附录
+# 同一天那篇量化搭建文章的 requirement.txt
 
 ### 写在开头
 

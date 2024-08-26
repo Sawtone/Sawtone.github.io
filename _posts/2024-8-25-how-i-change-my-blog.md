@@ -249,6 +249,10 @@ Part 2-4 字符串与字符集 (#part-2-4)
 
 继续写阮一峰 JS 学习笔记去咯(
 
+#### 人生第一次 pr
+
+![mzlogin](/images/blog/mzpr.png)
+
 ### 附录：相关源码(修改前)
 
 ```JavaScript

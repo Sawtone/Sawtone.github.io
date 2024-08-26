@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 撰写博客时遇到的一些 markdown 知识点
+title: 撰写博客时遇到的一些 markdown 知识点（连载中）
 categories: [markdown]
 description: markdown
 keywords: markdown

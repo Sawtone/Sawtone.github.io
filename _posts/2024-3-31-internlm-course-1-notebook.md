@@ -1,6 +1,6 @@
 ---
 layout: post
-title: InternLM实战营第二期笔记 & 作业
+title: AI | InternLM 实战营第二期笔记 & 作业
 categories: [InternLM]
 description: 笔记与基础作业(这次一定！)
 keywords: InternLM

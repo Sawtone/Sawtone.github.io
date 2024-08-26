@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 阮一峰 JavaScript & ECMAScript6 学习笔记与思考（连载中）
+title: JavaScript | 阮一峰 JavaScript & ECMAScript6 学习笔记与思考（连载中）
 categories: [JavaScript]
 description: JavaScript
 keywords: JavaScript

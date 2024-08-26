@@ -169,7 +169,11 @@ Section 3 是具体的目录生成操作
 
 ```
 ### Part 2-4 字符串与字符集
-<a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-string.md" target="_blank">点击此处跳转原书</a>
+<a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-string.md" target="_blank">[点击此处跳转原书]</a>
+
+网页将显示：
+Part 2-4 字符串与字符集
+[点击此处跳转原书]
 ```
 
 或者单独设置锚点，放置在标题右侧
@@ -177,7 +181,10 @@ Section 3 是具体的目录生成操作
 这样就可以点击目录里标题旁边的锚点跳转，超链接依旧保留在目录里
 
 ```
-### Part 2-4 字符串与字符集 <a href="https://sawtone.github.io/2024/08/23/RYF-JavaScript-ECMAScript6-Study/#part-2-4-字符串与字符集" target="_blank">#part-2-4</a>
+### Part 2-4 字符串与字符集 <a href="https://sawtone.github.io/2024/08/23/RYF-JavaScript-ECMAScript6-Study/#part-2-4-字符串与字符集" target="_blank">(#part-2-4)</a>
+
+网页将显示：
+Part 2-4 字符串与字符集 (#part-2-4)
 ```
 
 但此时我想了解与分析一下 JavaScript 处理逻辑，故不采用这种打补丁式的方法
@@ -228,7 +235,7 @@ Section 3 是具体的目录生成操作
       }
 ```
 
-对于 ` html += "<span class='toc-text'>" + header.innerHTML + "</span>";` 
+对于 `html += "<span class='toc-text'>" + header.innerHTML + "</span>";` 
 
 这里调用了 `header.innerHTML` 来嵌入原标题内容，但 `innerHTML` 在引入原标题的同时也引入了 `<a>` 超链接，问题的关键似乎变得很简单
 

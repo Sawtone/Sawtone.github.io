@@ -251,7 +251,12 @@ Part 2-4 字符串与字符集 (#part-2-4)
 
 #### 人生第一次 pr
 
-![mzlogin](/images/blog/mzpr.png)
+https://github.com/mzlogin/mzlogin.github.io/pull/181
+
+泪目~
+
+<img src="/images/blog/mzpr.png" alt="mzlogin" style="width:800px; box-shadow: 20px 20px 35px rgba(0,0,0,0.3);" />
+
 
 ### 附录：相关源码(修改前)
 

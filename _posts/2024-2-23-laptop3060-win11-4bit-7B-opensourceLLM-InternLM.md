@@ -1,6 +1,6 @@
 ---
 layout: post
-title: InternLM2-Chat-7B搭建流程与相关项目预告
+title: AI | InternLM2-Chat-7B 搭建与基于 Windows 的大模型量化方法
 categories: [AI, InternLM]
 description: 搭建InternLM的一些感想
 keywords: AI, InternLM

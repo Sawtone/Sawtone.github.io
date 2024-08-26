@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 一次心血来潮的举动——修改博客 JavaScript 处理逻辑
+title: JavaScript | 一次心血来潮的举动——修改博客 JavaScript 处理逻辑
 categories: [JavaScript, HTML]
 description: JavaScript, HTML
 keywords: JavaScript, HTML
 ---
 
-# 随着学习逐渐深入，逐渐从刻意逃避一些问题，到找原主提 Issues 交流，到现在自己尝试修改，受益匪浅
+# 随着学习逐渐深入，逐渐从刻意逃避一些问题，到找原主提 Issues 交流，到现在自己尝试修改并 pull request，受益匪浅
 
 
 ## JavaScript 生成目录逻辑与超链接属性冲突

@@ -414,6 +414,50 @@ Tip: 数值正溢出(overflow)、负溢出(underflow)、除以 0、被 0 除都�
 
 单引号字符串内部使用单引号 或 双引号字符串内使用双引号，需要转义内部的引号
 
+⭐️ HTML 的属性使用双引号，所以 JavaScript 的字符串一般只使用单引号
+
+如果字符串必须分成多行书写，有两种办法：
+- 在除了末尾行的每一行的尾部使用反斜杠，且反斜杠后必须直接换行
+- 使用 `+` 连接字符串的每一行，但每行的内容必须都是单独的字符串
+
+#### 勘误与反思
+
+原书介绍了一种利用多行注释输出多行字符串的方法：
+
+```JavaScript
+(function () { /*
+line 1
+line 2
+line 3
+*/
+}).toString().split('\n').slice(1, -1).join('\n')
+/*
+We will get:
+"line 1
+line 2
+line 3"
+*/
+```
+
+经个人使用 WebStorm 检验，编译器会直接忽略多行注释，导致对字符串的分割(split)与选取(slice)无法奏效
+
+反思后，我决定使用模板字符串(Template Literals)，并将代码修改为：
+
+```JavaScript
+(function () {
+return `
+line 1
+line 2
+line 3
+`;
+}).toString().split('\n').slice(1, -1).join('\n')
+/*
+We will get:
+"line 1
+line 2
+line 3"
+*/
+```
 
 
 ### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-object.md" target="_blank">Part 2-5 对象与属性</a>

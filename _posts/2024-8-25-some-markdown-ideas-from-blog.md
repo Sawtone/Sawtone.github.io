@@ -1,9 +1,9 @@
 ---
 layout: post
-title: markdown | 撰写博客时遇到的一些 markdown 知识点（连载中）
-categories: [markdown]
-description: markdown
-keywords: markdown
+title: markdown | 撰写博客时遇到的一些 markdown 知识点（连载）
+categories: [markdown, uncompleted]
+description: markdown, uncompleted
+keywords: markdown, uncompleted
 ---
 
 # markdown 作为一门工具性质的语言，我从未系统学习过，借做笔记与写博客的机会，记录一些知识点与体会

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: JavaScript | 阮一峰 JavaScript & ECMAScript6 学习笔记与思考（连载中）
-categories: [JavaScript]
-description: JavaScript
-keywords: JavaScript
+title: JavaScript | 阮一峰 JavaScript & ECMAScript6 学习笔记与思考（连载）
+categories: [JavaScript, uncompleted]
+description: JavaScript, uncompleted
+keywords: JavaScript, uncompleted
 ---
 
 # 写点关于《阮一峰 JavaScript 教程》《阮一峰 ECMAScript6 标准入门教程》的阅读笔记与感悟

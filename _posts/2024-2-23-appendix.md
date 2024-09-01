@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AI | 量化搭建 InternLM2-Chat-7B 环境库清单
-categories: [InternLM, appendix]
+categories: [appendix]
 description: 一个附录
 keywords: InternLM, appendix
 ---

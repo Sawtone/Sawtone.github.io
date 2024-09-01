@@ -1,9 +1,9 @@
 ---
 layout: post
-title: C++、JavaScript | Leetcode 刷题过程中遇到的相关方法和知识点(连载)
-categories: [C++, JavaScript, LeetCode]
-description: C++, JavaScript, LeetCode
-keywords: C++, JavaScript, LeetCode
+title: C++ JavaScript | Leetcode 刷题过程中遇到的相关方法和知识点(连载)
+categories: [C++, JavaScript, LeetCode, uncompleted]
+description: C++, JavaScript, LeetCode, uncompleted
+keywords: C++, JavaScript, LeetCode, uncompleted
 ---
 
 # C++ 和 JavaScript 基础并不算很好，将每天刷题过程中遇到的方法和新知识记录在此，帮助记忆

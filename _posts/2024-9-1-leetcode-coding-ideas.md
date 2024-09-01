@@ -1,9 +1,9 @@
 ---
 layout: post
-title: C++、JavaScript | Leetcode 刷题过程笔记与感悟(连载)
-categories: [C++, JavaScript, LeetCode]
-description: C++, JavaScript, LeetCode
-keywords: C++, JavaScript, LeetCode
+title: C++ JavaScript | Leetcode 刷题过程笔记与感悟(连载)
+categories: [C++, JavaScript, LeetCode, uncompleted]
+description: C++, JavaScript, LeetCode, uncompleted
+keywords: C++, JavaScript, LeetCode, uncompleted
 ---
 
 # 散题(Free) 每日一题(Day) 代码随想录(Carl) 书写每一道/类题目的感想与思考，包括二刷多刷

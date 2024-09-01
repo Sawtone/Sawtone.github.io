@@ -1,9 +1,9 @@
 ---
 layout: post
 title: AI | 生成式 AI ——Amazon User Group 北京站参会小记（连载中）
-categories: [AI, Life]
+categories: [AI, Life, uncompleted]
 description: some-idea-from-aws-user-group
-keywords: AI, Life
+keywords: AI, Life, uncompleted
 ---
 
 

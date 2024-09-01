@@ -1,9 +1,9 @@
 ---
 layout: post
 title: PCB | Altium Designer 软件使用笔记（连载中）
-categories: [PCB]
+categories: [PCB, uncompleted]
 description: 电路原理图与 PCB 版图设计
-keywords: PCB
+keywords: PCB, uncompleted
 ---
 
 # Altium Designer 20 软件使用笔记，主要基于教师讲解与个人使用

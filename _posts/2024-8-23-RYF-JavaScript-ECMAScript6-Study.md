@@ -681,7 +681,7 @@ f() // 1
 
 #### 函数的属性与方法
 
-name 属性
+name 属性：
 ```
 function f1() {}
 f1.name // "f1"
@@ -696,7 +696,26 @@ var f3 = function myName() {};
 f3.name // 'myName'
 ```
 
+length 属性：
+```
+// 返回函数预期传入的参数个数，即函数定义之中的参数个数
+function f(a, b) {}
+f.length // 2
+// length 可以判断定义时和调用时参数的差异，以便实现面向对象的“方法重载”（overload）
+```
 
+toString() 方法：
+```
+// 函数的 toString() 方法以字符串的形式返回函数的源码
+对于原生函数，toString()方法返回function (){[native code]}
+
+
+
+
+
+
+
+```
 
 
 

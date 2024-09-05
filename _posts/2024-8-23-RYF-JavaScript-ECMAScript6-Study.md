@@ -1,4 +1,4 @@
----
+![7A6E58CCDCA2670B42B6386B965CE0AA](https://github.com/user-attachments/assets/6d7d38e9-a55f-4a26-a731-be07a9ecc704)---
 layout: post
 title: JavaScript | 阮一峰 JavaScript & ECMAScript6 学习笔记与思考（连载）
 categories: [JavaScript, uncompleted]
@@ -420,17 +420,18 @@ Tip: 数值正溢出(overflow)、负溢出(underflow)、除以 0、被 0 除都�
 - 在除了末尾行的每一行的尾部使用反斜杠，且反斜杠后必须直接换行
 - 使用 `+` 连接字符串的每一行，但每行的内容必须都是单独的字符串
 
-#### 勘误与反思
+#### 反思
 
 原书介绍了一种利用多行注释输出多行字符串的方法：
 
 ```JavaScript
-(function () { /*
+console.log((function () { /*
 line 1
 line 2
 line 3
-*/
-}).toString().split('\n').slice(1, -1).join('\n')
+*/})
+    .toString().split('\n').slice(1, -1).join('\n')
+);
 /*
 We will get:
 "line 1
@@ -439,9 +440,35 @@ line 3"
 */
 ```
 
-经个人使用 WebStorm 检验，编译器会直接忽略多行注释，导致对字符串的分割(split)与选取(slice)无法奏效
+⭐️ 网页控制台环境：
+直接将原书中的代码输入 IDE 后，没有得到任何有效输出
 
-反思后，我决定使用模板字符串(Template Literals)，并将代码修改为：
+输入网页控制台后，却能够得到正确输出
+
+与同学讨论后，发现需要在 IDE 里添加 console.log，而网页控制台因为具有 `>` 可以直接实现输出
+
+这里值得注意的还有：
+
+如果在控制台使用没有 `console.log` 的代码，得到输出如下：
+
+```
+'line 1\nline 2\nline 3
+```
+
+而使用 `console.log` 将得到：
+
+```
+line 1
+line 2
+line 3
+```
+
+可见，网页控制台 `>` 出来的东西是一整个字符串，换行符等会以原始形式展示，而自己 log 的会把换行符变成可视的
+
+原理暂不细究
+
+
+Tip：如下，模板字符串(Template Literals)也可以做到多行输出
 
 ```JavaScript
 (function () {
@@ -451,16 +478,110 @@ line 2
 line 3
 `;
 }).toString().split('\n').slice(1, -1).join('\n')
-/*
-We will get:
-"line 1
-line 2
-line 3"
-*/
+
 ```
 
 
 ### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-object.md" target="_blank">Part 2-5 对象与属性</a>
+
+#### 属性
+
+属性(property)：即键名，当属性的值为函数，该属性被叫做方法
+
+对象的所有键名都是字符串(ES6 又引入 Symbol 值作为键名)，如果键名是数值会被自动转为字符串
+
+不符合变量命名规则的键名可以通过添加引号设置为字符串防止报错
+
+对象的属性之间用逗号分隔，最后一个属性后面可以加逗号，也可以不加
+
+#### 对象引用
+
+```JavaScript
+// 不同变量名指向同一对象，它们都是此对象的引用，指向同一个内存地址
+var o1 = {};
+var o2 = o1;
+// 修改其中一个变量，会影响到其他所有变量
+o1.a = 1;
+o2.a     // 1
+// 取消某一个变量对于原对象的引用，不会影响到另一个变量
+o1 = 1;
+o2     // { a: 1 }
+Tip：如果是变量，结果如下，这说明变量只是值的拷贝，不指向内存地址
+var x = 1;
+var y = x;
+x = 2;
+y // 1
+```
+
+#### 对象与代码块
+
+```
+// 如下代码具有歧义，不确定是对象还是代码块，通常 JS 将这种情况解释为代码块
+{ console.log(123) } // 123
+
+// 如果想解释为对象，最好在大括号前加上圆括号(圆括号内只能是表达式)
+({ foo: 123 })
+
+// 如果分别将两种传入 eval 方法
+eval('{foo: 123}') // 123 (foo 被视为标签
+eval('({foo: 123})') // {foo: 123}
+```
+
+#### 对属性操作
+
+```JavaScript
+// 读取属性
+// 使用方括号运算符的话，键名必须放在引号里
+var obj = {
+  p: 'Hello World',
+  6: 'ok'
+  0.7: 'float'
+};
+obj.p // "Hello World"
+obj['p'] // "Hello World"
+
+// 方括号内部可使用表达式
+obj[3 + 3] // "ok"
+
+// 数字键名必须使用方括号运算符，使用点运算会和小数点混淆
+// 数字键名可以不加引号，因为会自动转换
+obj[0.7] // "float"
+
+```
+
+```JavaScript
+// 属性赋值
+// JS 允许属性“后绑定”，可以在任意时刻新增属性
+
+// 属性查看
+var obj = {
+  key1: 1,
+  key2: 2
+};
+Object.keys(obj); // ['key1', 'key2']
+
+// 属性删除
+// delete 命令用于删除对象的属性，删除成功后返回 true
+// delete 命令只能删除对象本身的属性，无法删除继承的属性
+// 原书勘误：不是["p"]，应当是[ 'p' ]
+
+// 注意：
+// delete 删除一个不存在的属性不会报错，这表明不能通过 delete 判断属性是否存在
+// 只有当属性存在且不可配置的情况下，delete 命令会返回false
+
+// 判断属性是否存在
+// in 运算符不能识别属性是自带的还是继承的
+// 对象的 hasOwnProperty 方法可以判断是否为对象自身属性
+var obj = { p: 1 };
+'p' in obj // true
+'toString' in obj // true
+if ('toString' in obj) {
+  console.log(obj.hasOwnProperty('toString')); // false
+}
+
+// 遍历属性
+
+```
 
 
 

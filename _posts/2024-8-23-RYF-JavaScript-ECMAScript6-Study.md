@@ -1,4 +1,4 @@
-![7A6E58CCDCA2670B42B6386B965CE0AA](https://github.com/user-attachments/assets/6d7d38e9-a55f-4a26-a731-be07a9ecc704)---
+---
 layout: post
 title: JavaScript | 阮一峰 JavaScript & ECMAScript6 学习笔记与思考（连载）
 categories: [JavaScript, uncompleted]
@@ -580,13 +580,125 @@ if ('toString' in obj) {
 }
 
 // 遍历属性
+// for...in 循环可以遍历一个对象的全部属性
+// 它只能遍历可遍历的属性
+// 它不仅遍历对象自身的属性，还遍历继承的属性
 
+//with语句
+用不着
+
+```
+
+### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-function.md" target="_blank">Part 2-6 函数——属性、方法、作用域、闭包</a>
+
+调用函数时，要使用圆括号运算符
+
+没有返回值一般返回 `undefined`
+
+```
+// 第一等公民（first-class citizen）：
+// JS 将函数看作一种与其它值地位相同的值，凡是可以使用值的地方，就能使用函数
+// 函数只是一个可以执行的值，此外并无特殊之处
+// 由于函数与其他数据类型地位平等，所以在 JavaScript 语言中又称函数为第一等公民
+
+function add(x, y) {
+  return x + y;
+}
+function a(op){
+  return op;
+}
+a(add)(1, 1)  // 2
+
+// a(add) 的结果是 add 函数本身
+// a(add)(1, 1) 等效于 add(1, 1)
+```
+
+#### 函数书写方式
+
+直接书写
+
+```
+function print(s) {
+  console.log(s);
+}
+```
+
+将匿名函数赋值给变量
+```
+// 这个匿名函数又称函数表达式
+// 如果匿名函数具有名字，则该函数名只在函数体内部有效
+// 这种方式相当于变量赋值，末尾需要加分号
+var print = function(s) {
+  console.log(s);
+};
+```
+
+Function 构造函数
+
+```
+// 非常不直观，几乎无人使用
+var add = new Function(
+  'x',
+  'y',
+  'return x + y'
+);
+```
+
+#### 函数声明的变量提升
+
+```
+// 函数的声明也具有变量提升特性
+f(); // true
+function f() {}
+
+// 但如果使用赋值方式定义函数，就会报错
+// 因为变量的声明被提升了，但变量的赋值没有提升，函数还未传入
+f(); // Error
+var f = function (){};
+
+// 如果重复声明
+// 正常情况下后者保留
+function f() {
+  console.log(1);
+}
+f() // 2
+function f() {
+  console.log(2);
+}
+f() // 2
+
+// 函数表达式赋值的情况下优先保留
+// 因为赋值反而被放在最后，覆盖了被提升的函数声明
+var f = function () {
+  console.log('1');
+}
+function f() {
+  console.log('2');
+}
+f() // 1
+
+```
+
+#### 函数的属性与方法
+
+name 属性
+```
+function f1() {}
+f1.name // "f1"
+
+// 如果函数是函数表达式赋值得来的话
+// 匿名函数返回变量名
+var f2 = function () {};
+f2.name // "f2"
+// 具名函数返回函数名
+// 真正的函数名还是变量名，这个函数名只能在函数体内使用
+var f3 = function myName() {};
+f3.name // 'myName'
 ```
 
 
 
 
-### <a href="https://www.bookstack.cn/read/javascript-tutorial/docs-types-function.md" target="_blank">Part 2-6 函数——属性、方法、作用域、闭包</a>
 
 
 

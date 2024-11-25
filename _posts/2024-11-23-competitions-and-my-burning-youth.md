@@ -270,6 +270,7 @@ I wish all of us happy.
 
 <div style="display: flex; align-items: center; justify-content: flex-start;">
     <img src="/images/blog/bistu.png" alt="bistu" style="width:499px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
+    <img src="/images/blog/margin.png" alt="margin" style="width:20px;" />
     <img src="/images/blog/bistu1.jpg" alt="bistu1" style="width:120px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
 </div>
 

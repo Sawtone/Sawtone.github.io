@@ -252,8 +252,9 @@ keywords: About me
 I wish all of us happy.
 
 ## 我上电视啦
+[点击跳转](https://news.bistu.edu.cn/kjxs/ab23f2d625a347caa58badbe14fb1ff9.html)
 
-<img src="/images/blog/bistu.png" alt="bistu" style="width:800px; box-shadow: 20px 20px 35px rgba(0,0,0,0.3);" />
+<img src="/images/blog/bistu.png" alt="bistu" style="width:800px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
 
 ## **附录 | 我的获奖**
 

@@ -8,7 +8,7 @@ keywords: About me
 
 # 生活长文，以收官之作为引，记录过去的故事与生活，追忆燃烧的青春
 
-最后修改时间：2024.11.25 16:29
+最后修改时间：2024.11.25 16:43
 
 ## **楔子**
 
@@ -270,7 +270,7 @@ I wish all of us happy.
 
 <div style="display: flex; align-items: center; justify-content: flex-start;">
     <img src="/images/blog/bistu.png" alt="bistu" style="width:499px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
-    <img src="/images/blog/margin.png" alt="margin" style="width:20px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
+    <img src="/images/blog/margin.png" alt="margin" style="width:22px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
     <img src="/images/blog/bistu1.jpg" alt="bistu1" style="width:120px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
 </div>
 

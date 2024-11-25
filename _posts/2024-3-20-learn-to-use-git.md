@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git | Git 使用笔记（连载中）
+title: Git | Git 使用笔记
 categories: [Git, uncompleted]
 description: 记录学习与使用 Git 的一些心得
 keywords: Git, uncompleted

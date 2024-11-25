@@ -251,6 +251,10 @@ keywords: About me
 
 I wish all of us happy.
 
+## 我上电视啦
+
+<img src="/images/blog/bistu.png" alt="bistu" style="width:800px; box-shadow: 20px 20px 35px rgba(0,0,0,0.3);" />
+
 ## **附录 | 我的获奖**
 
 回顾过去的两年半，许多同学都曾与我交流过比赛相关内容，但鲜有人知我获奖几何，和我交流较深的人应该都懂哈哈哈。

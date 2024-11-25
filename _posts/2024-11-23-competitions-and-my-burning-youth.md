@@ -270,6 +270,8 @@ I wish all of us happy.
 
 <img src="/images/blog/bistu.png" alt="bistu" style="width:800px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
 
+<img src="/images/blog/bistu1.jpg" alt="bistu1" style="width:200px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
+
 ## **附录 | 我的获奖**
 
 回顾过去的两年半，许多同学都曾与我交流过比赛相关内容，但鲜有人知我获奖几何，和我交流较深的人应该都懂哈哈哈。

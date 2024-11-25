@@ -268,9 +268,13 @@ I wish all of us happy.
 ## 我上电视啦
 [点击跳转](https://news.bistu.edu.cn/kjxs/ab23f2d625a347caa58badbe14fb1ff9.html)
 
-<img src="/images/blog/bistu.png" alt="bistu" style="width:800px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
+<div style="display: flex; align-items: center; justify-content: flex-start;">
+    <img src="/images/blog/bistu.png" alt="bistu" style="width:625px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
+    <img src="/images/blog/bistu1.jpg" alt="bistu1" style="width:150px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
+</div>
 
-<img src="/images/blog/bistu1.jpg" alt="bistu1" style="width:200px; box-shadow: 10px 10px 15px rgba(0,0,0,0.3);" />
+
+
 
 ## **附录 | 我的获奖**
 

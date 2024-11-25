@@ -1,13 +1,13 @@
 ---
 layout: post
-title: AI | 生成式 AI ——Amazon User Group 北京站参会小记（连载中）
-categories: [AI, Life, uncompleted]
+title: AI | 生成式 AI —— Amazon User Group 北京站参会小记
+categories: [AI, Life]
 description: some-idea-from-aws-user-group
 keywords: AI, Life, uncompleted
 ---
 
 
-# AI | 生成式 AI ——Amazon User Group 北京站参会小记
+# 与三两好友一同参与 AWS User Group 线下活动，主题为生成式 AI，体验很棒
 
 活动链接：https://mp.weixin.qq.com/s/R4IaPn6e0hBX7FBiL98fGA
 活动图集：https://sawtone.github.io/fragment/figures-from-aws-user-group/
@@ -89,20 +89,26 @@ keywords: AI, Life, uncompleted
 
 ### 《Foundation Models on Amazon Bedrock 初体验》From 沈鸿
 
+沈鸿大佬分享的主要是 Claude 3 的构建与使用（基于 Amazon Bedrock）
 
+**关键词**：Claude 3、Prompt Engineering、参数调整、Amazon Bedrock
 
-
+受益匪浅，一定程度上帮助我对 ChatGPT 与 Claude 的输出进行对比，进一步提升效率。
 
 ### 《WhaleStudio 让大模型成为自己数据的百科全书》From 郭炜
 
+郭炜大佬分享的主要是基于 WhaleStudio 生成企业数据百科全书
 
+**关键词**：WhaleStudio、大模型、工作流、大数据、数据库
 
+相关内容偏向企业级，不过还是认真聆听全程，感觉有一种大型 RAG + Agent 的感觉，很酷。
 
 
 ### 《如何安全高效地构建生成式 AI 应用》From 陈琪
 
+陈琪大佬分享的是
 
-
+**关键词**：Claude 3、Prompt Engineering、参数调整、Amazon Bedrock
 
 
 ### 后记

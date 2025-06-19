@@ -1,12 +1,12 @@
 ---
 layout: post
-title: LeetCode | 飞书知识库[LeetCode 部分]
-categories: [C++, uncompleted]
-description: C++, uncompleted
-keywords: 飞书知识库[LeetCode 部分]
+title: Lark | 飞书知识库 LeetCode 部分
+categories: [LeetCode, Lark, uncompleted]
+description: LeetCode, uncompleted
+keywords: 飞书知识库 LeetCode 部分
 ---
 
-## LeetCode🟩🟨🟥🟦
+## 飞书知识库中有关 LeetCode 的内容，难易度/来源以色块区分🟩🟨🟥🟦
 
 ### <a href="https://pqq3yi01ips.feishu.cn/wiki/LJjKwX0WeiO3szkoEzQcsPFWn3e?from=from_copylink" target="_blank">HOT 100
 
@@ -18,9 +18,7 @@ keywords: 飞书知识库[LeetCode 部分]
 
 ##### <a href="https://pqq3yi01ips.feishu.cn/wiki/DaMjw2pYxiuLnUkppc6cdcfznjf?from=from_copylink" target="_blank">🟩704.二分查找
 
---- | **字符数：890** | ---
-
-包含知识点：二分查找合集
+**字符数：890** | 包含知识点：二分查找合集
 
 链接：https://pqq3yi01ips.feishu.cn/wiki/DaMjw2pYxiuLnUkppc6cdcfznjf?from=from_copylink
 

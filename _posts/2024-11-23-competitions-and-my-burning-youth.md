@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Life | 竞赛与我 | 技术成长 | 燃烧的青春
+title:  Life | 竞赛与我 | 技术成长 | 燃烧的青春
 categories: [Life]
 description: 竞赛与我 | 技术成长 | 燃烧的青春
 keywords: About me

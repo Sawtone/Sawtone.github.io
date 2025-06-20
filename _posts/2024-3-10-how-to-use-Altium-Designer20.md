@@ -1,7 +1,7 @@
 ---
 layout: post
-title: PCB | Altium Designer 软件使用笔记（连载中）
-categories: [PCB, uncompleted]
+title: 嵌入式 | Altium Designer 软件使用笔记
+categories: [嵌入式, 连载]
 description: 电路原理图与 PCB 版图设计
 keywords: PCB, uncompleted
 ---
@@ -9,9 +9,9 @@ keywords: PCB, uncompleted
 # Altium Designer 20 软件使用笔记，主要基于教师讲解与个人使用
 
 
-### 第一章 Altium Designer使用基础
+### 第一章 Altium Designer 使用基础
 
-##### Altium Designer文档资料的管理方式
+##### Altium Designer 文档资料的管理方式
 
 Project Group -> Project -> Many Files
 
@@ -27,7 +27,7 @@ File -> New -> Project 建立工程
 
 3、 PCB -> PCB版图文件 创建PCB文件 .PcbDoc
 
-##### 如何显示Project、Navigator、Properties、Components等面板
+##### 如何显示 Project、Navigator、Properties、Components 等面板
 
 可以用图钉图标控制两侧面板的浮窗模式开关
 
@@ -105,4 +105,4 @@ End / F5 刷新
 
 ----------------------------------------
 
-剩下内容都在电脑本地的 Word 文档里，格式较乱暂未导出，此坑暂不填
+剩下内容都在电脑本地的 Word 文档里，格式较乱暂未导出，待补充

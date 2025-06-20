@@ -1,12 +1,12 @@
 ---
 layout: post
-title: C++ JavaScript | Leetcode 刷题过程中遇到的相关方法和知识点(连载)
-categories: [C++, JavaScript, LeetCode, uncompleted]
-description: C++, JavaScript, LeetCode, uncompleted
-keywords: C++, JavaScript, LeetCode, uncompleted
+title: Leetcode | Leetcode 刷题过程中遇到的相关方法和知识点
+categories: [C++, JavaScript, LeetCode, 连载]
+description: C++, JavaScript, LeetCode, 连载
+keywords: C++, JavaScript, LeetCode, 连载
 ---
 
-# C++ 和 JavaScript 基础并不算很好，将每天刷题过程中遇到的方法和新知识记录在此，帮助记忆
+# C++ 和 JavaScript 基础并不算很好，将刷题过程中遇到的方法和新知识记录在此，帮助记忆
 
 ## <a href="https://leetcode.cn/problems/running-sum-of-1d-array/" target="_blank">1480.一维数组的动态和 | Easy | 散题</a>
 

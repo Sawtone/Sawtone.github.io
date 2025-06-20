@@ -1,8 +1,8 @@
 ---
 layout: post
-title: JavaScript | 阮一峰 JavaScript & ECMAScript6 学习笔记与思考（连载）
-categories: [JavaScript, uncompleted]
-description: JavaScript, uncompleted
+title: JavaScript | 阮一峰 JavaScript & ECMAScript6 学习笔记与思考
+categories: [JavaScript, 连载]
+description: JavaScript, 连载
 keywords: JavaScript, uncompleted
 ---
 

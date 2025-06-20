@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Lark | 飞书知识库主体部分
-categories: [Lark, JavaScript, uncompleted]
-description: Lark, JavaScript, uncompleted
+categories: [Lark, JavaScript, 连载]
+description: Lark, JavaScript, 连载
 keywords: 飞书知识库主体部分
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git | Git 使用笔记
-categories: [Git, uncompleted]
+categories: [Git, 连载]
 description: 记录学习与使用 Git 的一些心得
 keywords: Git, uncompleted
 ---
